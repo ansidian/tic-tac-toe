@@ -1,0 +1,13 @@
+.game-board-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.game-board-cell {
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+    height: 20rem;
+    border: 1px solid black;
+}
